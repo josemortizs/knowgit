@@ -1,0 +1,698 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA4C4A4D2AD1C29300BDEE4F /* knowgit Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = BA4C4A4C2AD1C29300BDEE4F /* knowgit Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		BA4C4A522AD1C29300BDEE4F /* knowgitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4C4A512AD1C29300BDEE4F /* knowgitApp.swift */; };
+		BA4C4A542AD1C29300BDEE4F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4C4A532AD1C29300BDEE4F /* ContentView.swift */; };
+		BA4C4A562AD1C29400BDEE4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA4C4A552AD1C29400BDEE4F /* Assets.xcassets */; };
+		BA4C4A592AD1C29400BDEE4F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA4C4A582AD1C29400BDEE4F /* Preview Assets.xcassets */; };
+		BA4C4A632AD1C29400BDEE4F /* knowgit_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4C4A622AD1C29400BDEE4F /* knowgit_Watch_AppTests.swift */; };
+		BA4C4A6D2AD1C29400BDEE4F /* knowgit_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4C4A6C2AD1C29400BDEE4F /* knowgit_Watch_AppUITests.swift */; };
+		BA4C4A6F2AD1C29400BDEE4F /* knowgit_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4C4A6E2AD1C29400BDEE4F /* knowgit_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA4C4A4E2AD1C29300BDEE4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA4C4A402AD1C29300BDEE4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA4C4A4B2AD1C29300BDEE4F;
+			remoteInfo = "knowgit Watch App";
+		};
+		BA4C4A5F2AD1C29400BDEE4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA4C4A402AD1C29300BDEE4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA4C4A4B2AD1C29300BDEE4F;
+			remoteInfo = "knowgit Watch App";
+		};
+		BA4C4A692AD1C29400BDEE4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA4C4A402AD1C29300BDEE4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA4C4A4B2AD1C29300BDEE4F;
+			remoteInfo = "knowgit Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BA4C4A752AD1C29400BDEE4F /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				BA4C4A4D2AD1C29300BDEE4F /* knowgit Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BA4C4A462AD1C29300BDEE4F /* knowgit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = knowgit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA4C4A4C2AD1C29300BDEE4F /* knowgit Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "knowgit Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA4C4A512AD1C29300BDEE4F /* knowgitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = knowgitApp.swift; sourceTree = "<group>"; };
+		BA4C4A532AD1C29300BDEE4F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BA4C4A552AD1C29400BDEE4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA4C4A582AD1C29400BDEE4F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BA4C4A5E2AD1C29400BDEE4F /* knowgit Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "knowgit Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA4C4A622AD1C29400BDEE4F /* knowgit_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = knowgit_Watch_AppTests.swift; sourceTree = "<group>"; };
+		BA4C4A682AD1C29400BDEE4F /* knowgit Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "knowgit Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA4C4A6C2AD1C29400BDEE4F /* knowgit_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = knowgit_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		BA4C4A6E2AD1C29400BDEE4F /* knowgit_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = knowgit_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA4C4A492AD1C29300BDEE4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA4C4A5B2AD1C29400BDEE4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA4C4A652AD1C29400BDEE4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA4C4A3F2AD1C29300BDEE4F = {
+			isa = PBXGroup;
+			children = (
+				BA4C4A502AD1C29300BDEE4F /* knowgit Watch App */,
+				BA4C4A612AD1C29400BDEE4F /* knowgit Watch AppTests */,
+				BA4C4A6B2AD1C29400BDEE4F /* knowgit Watch AppUITests */,
+				BA4C4A472AD1C29300BDEE4F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA4C4A472AD1C29300BDEE4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA4C4A462AD1C29300BDEE4F /* knowgit.app */,
+				BA4C4A4C2AD1C29300BDEE4F /* knowgit Watch App.app */,
+				BA4C4A5E2AD1C29400BDEE4F /* knowgit Watch AppTests.xctest */,
+				BA4C4A682AD1C29400BDEE4F /* knowgit Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA4C4A502AD1C29300BDEE4F /* knowgit Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				BA4C4A512AD1C29300BDEE4F /* knowgitApp.swift */,
+				BA4C4A532AD1C29300BDEE4F /* ContentView.swift */,
+				BA4C4A552AD1C29400BDEE4F /* Assets.xcassets */,
+				BA4C4A572AD1C29400BDEE4F /* Preview Content */,
+			);
+			path = "knowgit Watch App";
+			sourceTree = "<group>";
+		};
+		BA4C4A572AD1C29400BDEE4F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BA4C4A582AD1C29400BDEE4F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BA4C4A612AD1C29400BDEE4F /* knowgit Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA4C4A622AD1C29400BDEE4F /* knowgit_Watch_AppTests.swift */,
+			);
+			path = "knowgit Watch AppTests";
+			sourceTree = "<group>";
+		};
+		BA4C4A6B2AD1C29400BDEE4F /* knowgit Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BA4C4A6C2AD1C29400BDEE4F /* knowgit_Watch_AppUITests.swift */,
+				BA4C4A6E2AD1C29400BDEE4F /* knowgit_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "knowgit Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA4C4A452AD1C29300BDEE4F /* knowgit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA4C4A762AD1C29400BDEE4F /* Build configuration list for PBXNativeTarget "knowgit" */;
+			buildPhases = (
+				BA4C4A442AD1C29300BDEE4F /* Resources */,
+				BA4C4A752AD1C29400BDEE4F /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA4C4A4F2AD1C29300BDEE4F /* PBXTargetDependency */,
+			);
+			name = knowgit;
+			productName = knowgit;
+			productReference = BA4C4A462AD1C29300BDEE4F /* knowgit.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		BA4C4A4B2AD1C29300BDEE4F /* knowgit Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA4C4A722AD1C29400BDEE4F /* Build configuration list for PBXNativeTarget "knowgit Watch App" */;
+			buildPhases = (
+				BA4C4A482AD1C29300BDEE4F /* Sources */,
+				BA4C4A492AD1C29300BDEE4F /* Frameworks */,
+				BA4C4A4A2AD1C29300BDEE4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "knowgit Watch App";
+			productName = "knowgit Watch App";
+			productReference = BA4C4A4C2AD1C29300BDEE4F /* knowgit Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA4C4A5D2AD1C29400BDEE4F /* knowgit Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA4C4A792AD1C29400BDEE4F /* Build configuration list for PBXNativeTarget "knowgit Watch AppTests" */;
+			buildPhases = (
+				BA4C4A5A2AD1C29400BDEE4F /* Sources */,
+				BA4C4A5B2AD1C29400BDEE4F /* Frameworks */,
+				BA4C4A5C2AD1C29400BDEE4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA4C4A602AD1C29400BDEE4F /* PBXTargetDependency */,
+			);
+			name = "knowgit Watch AppTests";
+			productName = "knowgit Watch AppTests";
+			productReference = BA4C4A5E2AD1C29400BDEE4F /* knowgit Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BA4C4A672AD1C29400BDEE4F /* knowgit Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA4C4A7C2AD1C29400BDEE4F /* Build configuration list for PBXNativeTarget "knowgit Watch AppUITests" */;
+			buildPhases = (
+				BA4C4A642AD1C29400BDEE4F /* Sources */,
+				BA4C4A652AD1C29400BDEE4F /* Frameworks */,
+				BA4C4A662AD1C29400BDEE4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA4C4A6A2AD1C29400BDEE4F /* PBXTargetDependency */,
+			);
+			name = "knowgit Watch AppUITests";
+			productName = "knowgit Watch AppUITests";
+			productReference = BA4C4A682AD1C29400BDEE4F /* knowgit Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA4C4A402AD1C29300BDEE4F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					BA4C4A452AD1C29300BDEE4F = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					BA4C4A4B2AD1C29300BDEE4F = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					BA4C4A5D2AD1C29400BDEE4F = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = BA4C4A4B2AD1C29300BDEE4F;
+					};
+					BA4C4A672AD1C29400BDEE4F = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = BA4C4A4B2AD1C29300BDEE4F;
+					};
+				};
+			};
+			buildConfigurationList = BA4C4A432AD1C29300BDEE4F /* Build configuration list for PBXProject "knowgit" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA4C4A3F2AD1C29300BDEE4F;
+			productRefGroup = BA4C4A472AD1C29300BDEE4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA4C4A452AD1C29300BDEE4F /* knowgit */,
+				BA4C4A4B2AD1C29300BDEE4F /* knowgit Watch App */,
+				BA4C4A5D2AD1C29400BDEE4F /* knowgit Watch AppTests */,
+				BA4C4A672AD1C29400BDEE4F /* knowgit Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA4C4A442AD1C29300BDEE4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA4C4A4A2AD1C29300BDEE4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA4C4A592AD1C29400BDEE4F /* Preview Assets.xcassets in Resources */,
+				BA4C4A562AD1C29400BDEE4F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA4C4A5C2AD1C29400BDEE4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA4C4A662AD1C29400BDEE4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA4C4A482AD1C29300BDEE4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA4C4A542AD1C29300BDEE4F /* ContentView.swift in Sources */,
+				BA4C4A522AD1C29300BDEE4F /* knowgitApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA4C4A5A2AD1C29400BDEE4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA4C4A632AD1C29400BDEE4F /* knowgit_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA4C4A642AD1C29400BDEE4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA4C4A6F2AD1C29400BDEE4F /* knowgit_Watch_AppUITestsLaunchTests.swift in Sources */,
+				BA4C4A6D2AD1C29400BDEE4F /* knowgit_Watch_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA4C4A4F2AD1C29300BDEE4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA4C4A4B2AD1C29300BDEE4F /* knowgit Watch App */;
+			targetProxy = BA4C4A4E2AD1C29300BDEE4F /* PBXContainerItemProxy */;
+		};
+		BA4C4A602AD1C29400BDEE4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA4C4A4B2AD1C29300BDEE4F /* knowgit Watch App */;
+			targetProxy = BA4C4A5F2AD1C29400BDEE4F /* PBXContainerItemProxy */;
+		};
+		BA4C4A6A2AD1C29400BDEE4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA4C4A4B2AD1C29300BDEE4F /* knowgit Watch App */;
+			targetProxy = BA4C4A692AD1C29400BDEE4F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BA4C4A702AD1C29400BDEE4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BA4C4A712AD1C29400BDEE4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		BA4C4A732AD1C29400BDEE4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"knowgit Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 348MZJ2SHN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = knowgit;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = es.osdev.knowgit.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		BA4C4A742AD1C29400BDEE4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"knowgit Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 348MZJ2SHN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = knowgit;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = es.osdev.knowgit.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		BA4C4A772AD1C29400BDEE4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 348MZJ2SHN;
+				INFOPLIST_KEY_CFBundleDisplayName = knowgit;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = es.osdev.knowgit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		BA4C4A782AD1C29400BDEE4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 348MZJ2SHN;
+				INFOPLIST_KEY_CFBundleDisplayName = knowgit;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = es.osdev.knowgit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA4C4A7A2AD1C29400BDEE4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 348MZJ2SHN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "es.osdev.knowgit-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/knowgit Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/knowgit Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		BA4C4A7B2AD1C29400BDEE4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 348MZJ2SHN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "es.osdev.knowgit-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/knowgit Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/knowgit Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		BA4C4A7D2AD1C29400BDEE4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 348MZJ2SHN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "es.osdev.knowgit-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "knowgit Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		BA4C4A7E2AD1C29400BDEE4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 348MZJ2SHN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "es.osdev.knowgit-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "knowgit Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA4C4A432AD1C29300BDEE4F /* Build configuration list for PBXProject "knowgit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA4C4A702AD1C29400BDEE4F /* Debug */,
+				BA4C4A712AD1C29400BDEE4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA4C4A722AD1C29400BDEE4F /* Build configuration list for PBXNativeTarget "knowgit Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA4C4A732AD1C29400BDEE4F /* Debug */,
+				BA4C4A742AD1C29400BDEE4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA4C4A762AD1C29400BDEE4F /* Build configuration list for PBXNativeTarget "knowgit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA4C4A772AD1C29400BDEE4F /* Debug */,
+				BA4C4A782AD1C29400BDEE4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA4C4A792AD1C29400BDEE4F /* Build configuration list for PBXNativeTarget "knowgit Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA4C4A7A2AD1C29400BDEE4F /* Debug */,
+				BA4C4A7B2AD1C29400BDEE4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA4C4A7C2AD1C29400BDEE4F /* Build configuration list for PBXNativeTarget "knowgit Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA4C4A7D2AD1C29400BDEE4F /* Debug */,
+				BA4C4A7E2AD1C29400BDEE4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA4C4A402AD1C29300BDEE4F /* Project object */;
+}
