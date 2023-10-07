@@ -1,0 +1,102 @@
+[
+    {
+        "id": "08F1C9F9-B2DE-44D0-9212-98A90E4A7947",
+        "command": ["git", "init"],
+        "description": "Inicializa un nuevo repositorio Git."
+    },
+    {
+        "id": "B80A8404-139B-4C12-99AF-667AAE6555A8",
+        "command": ["git", "add"],
+        "description": "Agrega archivos al área de preparación (staging area)."
+    },
+    {
+        "id": "0F8813C6-643E-4EF4-9A71-14B234E2E4AA",
+        "command": ["git", "commit"],
+        "description": "Registra los cambios en el repositorio."
+    },
+    {
+        "id": "F9798996-3A82-42B0-B78F-B47D9DB7F8DD",
+        "command": ["git", "push"],
+        "description": "Envía los cambios al repositorio remoto."
+    },
+    {
+        "id": "8BBB8D71-2E7C-4E6C-ADE0-2B4A774E365A",
+        "command": ["git", "pull"],
+        "description": "Obtiene y fusiona cambios desde el repositorio remoto."
+    },
+    {
+        "id": "6E9E84BB-AD72-41A7-8C08-75ED8D875A21",
+        "command": ["git", "clone"],
+        "description": "Copia un repositorio Git existente."
+    },
+    {
+        "id": "FD2D8237-688D-49EF-A384-242F890EA2ED",
+        "command": ["git", "branch"],
+        "description": "Crea una nueva rama."
+    },
+    {
+        "id": "CA9D7020-FB93-4F85-AD2B-16965A9E4141",
+        "command": ["git", "checkout"],
+        "description": "Cambia a una rama existente."
+    },
+    {
+        "id": "77E6FA4A-6B48-401C-8D1F-0B96323423C4",
+        "command": ["git", "merge"],
+        "description": "Combina los cambios de una rama en otra."
+    },
+    {
+        "id": "BB8C3F8D-8D8B-4327-9EF2-9461A922FD88",
+        "command": ["git", "status"],
+        "description": "Muestra el estado del repositorio."
+    },
+    {
+        "id": "9DDBFB67-321D-4472-84A6-1FA8D8D67C9B",
+        "command": ["git", "log"],
+        "description": "Muestra el historial de confirmaciones."
+    },
+    {
+        "id": "CB118DAE-7EC0-4693-AB8C-8D58F58A9A32",
+        "command": ["git", "reset"],
+        "description": "Deshace los cambios en el área de preparación y en el directorio de trabajo."
+    },
+    {
+        "id": "493A6AFB-D505-4D2A-8A97-7B6E17B48E0F",
+        "command": ["git", "remote"],
+        "description": "Administra repositorios remotos."
+    },
+    {
+        "id": "3445D1B0-F5E1-45DC-8DFD-59D5F76EB73C",
+        "command": ["git", "fetch"],
+        "description": "Recupera objetos y referencias de otro repositorio."
+    },
+    {
+        "id": "B1B8F367-8560-4A2E-8A33-EDE130A60F61",
+        "command": ["git", "rebase"],
+        "description": "Aplica cambios de una rama a otra."
+    },
+    {
+        "id": "8B38E09A-DB34-4C80-8E9A-F7DDC1E8AB59",
+        "command": ["git", "tag"],
+        "description": "Administra etiquetas."
+    },
+    {
+        "id": "2DBEFB24-F1AA-4093-BB06-B51A9DE270A0",
+        "command": ["git", "config"],
+        "description": "Configura opciones de Git."
+    },
+    {
+        "id": "A5586C5A-5597-435A-A777-6D48D7E03251",
+        "command": ["git", "diff"],
+        "description": "Muestra las diferencias entre cambios."
+    },
+    {
+        "id": "C8CF732D-46D4-4AD0-80AD-36733C3B1B19",
+        "command": ["git", "stash"],
+        "description": "Guarda los cambios en un área temporal."
+    },
+    {
+        "id": "56E8A8F1-3DF1-46C5-B7AD-2D226AED72A6",
+        "command": ["git", "help"],
+        "description": "Muestra ayuda para un comando específico."
+    }
+]
