@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct GitQuestion: Codable, Identifiable {
+struct GitQuestion: Codable, CommandProtocol {
     let id: String
     let command: [String]
     let description: String

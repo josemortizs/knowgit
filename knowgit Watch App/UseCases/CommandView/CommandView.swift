@@ -1,5 +1,5 @@
 //
-//  GitQuestionView.swift
+//  CommandView.swift
 //  knowgit Watch App
 //
 //  Created by Jose Manuel Ortiz Sanchez on 7/10/23.
@@ -7,9 +7,9 @@
 
 import SwiftUI
 
-struct GitQuestionView: View {
+struct CommandView<Command: CommandProtocol>: View {
     
-    let question: GitQuestion
+    let question: Command
     
     var body: some View {
         ScrollView(.vertical) {
@@ -27,7 +27,7 @@ struct GitQuestionView: View {
 }
 
 #Preview {
-    GitQuestionView(question: GitQuestion(
+    CommandView(question: GitQuestion(
         command: ["git", "checkout", "-b", "develop", "-f"],
         description: "Cambia a la rama develop"
     ))

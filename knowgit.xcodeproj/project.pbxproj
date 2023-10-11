@@ -18,9 +18,11 @@
 		BA4C4A822AD1C36D00BDEE4F /* GitQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4C4A812AD1C36D00BDEE4F /* GitQuestion.swift */; };
 		BA4C4A862AD1C75600BDEE4F /* GitQuestionRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4C4A852AD1C75600BDEE4F /* GitQuestionRepository.swift */; };
 		BA4C4A892AD1C85100BDEE4F /* questions.json in Resources */ = {isa = PBXBuildFile; fileRef = BA4C4A882AD1C85100BDEE4F /* questions.json */; };
-		BA4C4A8D2AD1CD0600BDEE4F /* GitQuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4C4A8C2AD1CD0600BDEE4F /* GitQuestionView.swift */; };
+		BA4C4A8D2AD1CD0600BDEE4F /* CommandView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4C4A8C2AD1CD0600BDEE4F /* CommandView.swift */; };
 		BA4C4A902AD1CD7F00BDEE4F /* GitQuestionsMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4C4A8F2AD1CD7F00BDEE4F /* GitQuestionsMock.swift */; };
 		BA4C4A942AD1D08A00BDEE4F /* CollectionExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4C4A932AD1D08A00BDEE4F /* CollectionExtensions.swift */; };
+		BA7A3C822AD70E7200EAD930 /* CommandProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7A3C812AD70E7200EAD930 /* CommandProtocol.swift */; };
+		BA7A3C852AD713E100EAD930 /* TypewritterTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7A3C842AD713E100EAD930 /* TypewritterTextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,9 +78,11 @@
 		BA4C4A812AD1C36D00BDEE4F /* GitQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitQuestion.swift; sourceTree = "<group>"; };
 		BA4C4A852AD1C75600BDEE4F /* GitQuestionRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitQuestionRepository.swift; sourceTree = "<group>"; };
 		BA4C4A882AD1C85100BDEE4F /* questions.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = questions.json; sourceTree = "<group>"; };
-		BA4C4A8C2AD1CD0600BDEE4F /* GitQuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitQuestionView.swift; sourceTree = "<group>"; };
+		BA4C4A8C2AD1CD0600BDEE4F /* CommandView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandView.swift; sourceTree = "<group>"; };
 		BA4C4A8F2AD1CD7F00BDEE4F /* GitQuestionsMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitQuestionsMock.swift; sourceTree = "<group>"; };
 		BA4C4A932AD1D08A00BDEE4F /* CollectionExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionExtensions.swift; sourceTree = "<group>"; };
+		BA7A3C812AD70E7200EAD930 /* CommandProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandProtocol.swift; sourceTree = "<group>"; };
+		BA7A3C842AD713E100EAD930 /* TypewritterTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypewritterTextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,6 +190,7 @@
 		BA4C4A832AD1C6C400BDEE4F /* DataModules */ = {
 			isa = PBXGroup;
 			children = (
+				BA7A3C802AD70E4D00EAD930 /* protocols */,
 				BA4C4A8E2AD1CD6200BDEE4F /* mocks */,
 				BA4C4A872AD1C82D00BDEE4F /* json */,
 				BA4C4A842AD1C6EA00BDEE4F /* Repositories */,
@@ -212,17 +217,18 @@
 		BA4C4A8A2AD1CC9B00BDEE4F /* UseCases */ = {
 			isa = PBXGroup;
 			children = (
-				BA4C4A8B2AD1CCDF00BDEE4F /* GitQuestionView */,
+				BA4C4A8B2AD1CCDF00BDEE4F /* CommandView */,
 			);
 			path = UseCases;
 			sourceTree = "<group>";
 		};
-		BA4C4A8B2AD1CCDF00BDEE4F /* GitQuestionView */ = {
+		BA4C4A8B2AD1CCDF00BDEE4F /* CommandView */ = {
 			isa = PBXGroup;
 			children = (
-				BA4C4A8C2AD1CD0600BDEE4F /* GitQuestionView.swift */,
+				BA7A3C832AD713CC00EAD930 /* Common */,
+				BA4C4A8C2AD1CD0600BDEE4F /* CommandView.swift */,
 			);
-			path = GitQuestionView;
+			path = CommandView;
 			sourceTree = "<group>";
 		};
 		BA4C4A8E2AD1CD6200BDEE4F /* mocks */ = {
@@ -247,6 +253,22 @@
 				BA4C4A932AD1D08A00BDEE4F /* CollectionExtensions.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		BA7A3C802AD70E4D00EAD930 /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				BA7A3C812AD70E7200EAD930 /* CommandProtocol.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		BA7A3C832AD713CC00EAD930 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				BA7A3C842AD713E100EAD930 /* TypewritterTextView.swift */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -409,10 +431,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA4C4A822AD1C36D00BDEE4F /* GitQuestion.swift in Sources */,
+				BA7A3C822AD70E7200EAD930 /* CommandProtocol.swift in Sources */,
 				BA4C4A942AD1D08A00BDEE4F /* CollectionExtensions.swift in Sources */,
 				BA4C4A542AD1C29300BDEE4F /* ContentView.swift in Sources */,
 				BA4C4A902AD1CD7F00BDEE4F /* GitQuestionsMock.swift in Sources */,
-				BA4C4A8D2AD1CD0600BDEE4F /* GitQuestionView.swift in Sources */,
+				BA7A3C852AD713E100EAD930 /* TypewritterTextView.swift in Sources */,
+				BA4C4A8D2AD1CD0600BDEE4F /* CommandView.swift in Sources */,
 				BA4C4A862AD1C75600BDEE4F /* GitQuestionRepository.swift in Sources */,
 				BA4C4A522AD1C29300BDEE4F /* knowgitApp.swift in Sources */,
 			);
